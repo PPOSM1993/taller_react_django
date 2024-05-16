@@ -15,7 +15,7 @@ SQLITE = {
 POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'taller_react_django',
+        'NAME': 'react_django_taller_todo',
         'USER': 'postgres',
         'PASSWORD': '1234',
         'HOST': 'localhost',
@@ -28,7 +28,7 @@ POSTGRESQL = {
 MYSQL = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'taller_react_django',
+        'NAME': 'react_django_taller_todo',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
